@@ -1,0 +1,106 @@
+body{
+    background-color: black;
+    color: white;
+}
+#header{
+    font-family: 'Muli', sans-serif;
+    font-size: 15px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border:4px solid rgb(187, 238, 48);
+    width: 40%;
+    height: 190px;
+}
+#name{
+    color: rgb(15, 215, 241);
+    font-size: 30px;
+}
+#top-section{
+    height: 403px;
+}
+.intro{
+    vertical-align: middle;
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.intro img{
+    padding-left: 50px;
+    padding-right: 10px;
+    width: 390px;
+    height: 390px;
+}
+.home{
+    text-align: justify;
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+    color: blanchedalmond;
+}
+.home img{
+    padding-left: 50px;
+    padding-right: 10px;
+    width: 390px;
+    height: 390px;
+}
+#middle-section{
+    height: 400px;
+}
+#workname{
+    padding: 5px;
+    color: rgb(190, 11, 11);
+    width: 150px;
+    border: 2px solid rgb(167, 87, 7);
+
+}
+#workname:hover{
+    background-color: rgba(165, 165, 165, 0.589);
+}
+.button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, lightsalmon, tomato);
+    color: black;
+    padding: 5px 10px;
+    border: 2px solid crimson;
+    border-radius: 5px;
+
+}
+.button:hover{
+    background-image: linear-gradient(45deg, lightblue, lightgreen);
+}
+.block{
+    width: 18%;
+    text-align: center;
+    color: rgb(237, 161, 240);
+    background-color: rgba(211, 210, 210, 0.199);
+    border-bottom-left-radius: 30px;
+    border-top-right-radius: 30px;
+    box-shadow: 2px 2px 10px rgb(167, 87, 7);
+    padding: 5px;
+    margin: 7px;
+    font-size: medium;
+    display: block;
+    float: left;
+    height: 250px;
+    border-image: linear-gradient(45deg,rgba(226, 213, 98, 0.781),rgb(212, 67, 91));
+    border-image-slice: 1;
+}
+.block:hover{
+    background-color: rgba(94, 40, 40, 0.568);
+}
+.block img{
+    margin-left: auto;
+    margin-right: auto;
+    height: 80px;
+    width: 120px;
+    border: 2px solid tomato;
+    border-radius: 5px;
+}
+.navigation{
+    font-size: large;
+    font-weight: 400;
+    color: violet;
+}
